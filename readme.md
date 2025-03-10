@@ -1,6 +1,7 @@
 # vit embedding server
 
 a c++ server that provides vision transformer (vit) embeddings via http api using libtorch and crow. this is essentially two projects  [vit_export_experiment](https://github.com/johngunerli/ViT_cpp_experiment) and [embedding python and cpp server](https://github.com/johngunerli/embedding-server-cpp).
+
 ## prerequisites
 
 - cmake (3.0+)
@@ -76,7 +77,8 @@ if __name__ == "__main__":
 ````
 
 ## testing result
-for the image [](./Edgar_Degas_-_La_Classe_de_danse.jpg)
+
+for the image ![](./Edgar_Degas_-_La_Classe_de_danse.jpg)
 
 the response we get is:
 
