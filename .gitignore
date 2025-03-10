@@ -1,0 +1,3 @@
+libtorch/
+vit_embedding_server/build/
+vit_embedding.pt
